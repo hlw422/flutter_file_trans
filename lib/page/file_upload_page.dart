@@ -50,7 +50,7 @@ class _FileUploadPageState extends State<FileUploadPage> {
 
     try {
       var response = await dio.post(
-        "http://localhost:8080/upload", // 改成你的后端接口
+        "http://localhost:9001/upload", // 改成你的后端接口
         data: formData,
         options: Options(headers: {"Content-Type": "multipart/form-data"}),
         onSendProgress: (sent, total) {
