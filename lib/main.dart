@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_file_trans/page/file_async_page.dart';
 import 'package:flutter_file_trans/page/file_download_page.dart';
 import 'package:flutter_file_trans/page/file_upload_page.dart';
 import 'package:flutter_file_trans/page/menu_home_page.dart';
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
     '/menu':(context) => const MenuHomePage(),
     '/upload': (context) => FileUploadPage(),
     '/download': (context) => FileDownloadPage(),
+    '/async': (context)=>FileManagerPage()
    },
   );
  }

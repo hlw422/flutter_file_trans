@@ -29,6 +29,13 @@ class MenuHomePage extends StatelessWidget {
        icon: Icons.download_outlined,
        route: '/download',
       ),
+       // 商品列表页按钮
+      _buildMenuButton(
+       context,
+       title: '文件同步',
+       icon: Icons.file_copy_outlined,
+       route: '/async',
+      ),
       // 购物车按钮
       _buildMenuButton(
        context,
